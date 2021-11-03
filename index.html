@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/iconsfont.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/lifestyle.css">
+   <link type="image/png" sizes="120x120" rel="icon" href="/img/123.jpg">
+   <meta name="viewport" content="width=device-width">
+   <title>Ushakita</title>
+   <link rel="import" href="header.html">
+   <!--<link rel="import" href="/footer.html">-->
+</head>
+
+<body>
+   @@include('header.html')
+   <style>
+      body {
+         background: powderblue;
+         background-repeat: no-repeat;
+         background-position: center center;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         background-repeat: repeat-y;
+      }
+
+      .footer__main {
+         padding: 49px 50px;
+      }
+   </style>
+   <!--<script>
+      var link = document.querySelector('link[rel=import]');
+      var content = link.import.querySelector('#header');
+      document.body.appendChild(content.cloneNode(true));
+   </script>-->
+   <div class="content-wrapper">
+      <div class="container content-wrapper__container">
+         <br>
+         <h1>Всем привет! Звать меня Никита значит так.</h1>
+         <p>Студент уже 2-го курса, люблю книжечки почитать, за киберспорт поболеть, да вот, как видите, покодить ещё.
+            Очень нравится данная сфера деятельности. Мало того что перспективная очень, дак ещё интересно всё это дело
+            делать :)</p>
+         <p>Итак, для чего же я сделал этот сайтец?</p>
+         <p>Вообще, это будет что-то вроде сайта-визитки, где каждый человек сможет ОНЛАЙН познакомиться со мной, а
+            кто-то просто узнать что-то новое.</p>
+         <h2>Если ты читаешь это, то знай - ты именно тот счастливчик, которым очень дорожит автор этого сайта.</h2>
+         <p>Ведь данная ссылка попадет в очень узкий круг людей, который и правда для меня очень дороги.</p>
+         <p>Ну, это было небольшое вступление, не буду долго затягивать и перейдём к сути! </p><br>
+         <h3>Добро пожаловать в мою личную жизнь!</h3>
+
+         <br>
+      </div>
+   </div>
+   <div id="zatemnenie">
+      <div id="okno">
+         <p>Мы ждём ваши <br>предложения!</p>
+         <form action="#" class="form__body" name="main_form" id="form" method="POST">
+            <div class="row">
+               <a href="#" class="close"><img src="https://img.icons8.com/ios-filled/50/000000/close-window.png" /></a>
+               <label for="login">Ваше имя:</label>
+               <input id="login" name="login" placeholder="Введите имя" required class="input _req" type="login"><br>
+               <label for="email">Ваш email:</label>
+               <input id="email" name="email" placeholder="Введите email" required class="input _req _email"
+                  type="email"><br>
+               <label for="text">Cообщение:</label>
+               <input id="text" name="text" placeholder="Введите сообщение" required
+                  class="input input_text input__active _req" type="text"><br>
+               <input type="submit" class="button" value="Отправить"></input>
+            </div>
+         </form>
+      </div>
+   </div>
+   <div class="main__content">
+      <p></p>
+   </div>
+   @@include('footer.html')
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="js/script.js"></script>
+   <!--<script src="https://kit.fontawesome.com/536de1cae3.js" crossorigin="anonymous"></script>-->
+</body>
+
+</html>
